@@ -17,7 +17,7 @@ So in this example we need an Answers table to be our many-to-many table that wi
 
 1) So let’s start a new Rails application.
 
-    $ rails new SurveyApp
+		$ rails new SurveyApp
 
 2) Generate some models and scaffolds to save a little bit of typing later.
 
