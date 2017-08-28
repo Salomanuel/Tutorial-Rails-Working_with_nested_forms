@@ -62,6 +62,8 @@ class SurveysController < ApplicationController
   end
 
   def answers
+    @participants = Participant.all
+    @questions    = @survey.questions
   end
 
   private

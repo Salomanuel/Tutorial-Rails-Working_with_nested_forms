@@ -3,6 +3,7 @@
 <p>
   <strong>Name:</strong>
   <%= @survey.name %>
+  <%= link_to "answers", answers_survey_path %>
 </p>
 
 <%= link_to 'Edit', edit_survey_path(@survey) %> |
