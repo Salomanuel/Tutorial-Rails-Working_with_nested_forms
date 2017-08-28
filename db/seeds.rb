@@ -13,6 +13,6 @@ end
 
 Survey.all.each do |i|
 	5.times do |j|
-		i.questions.create(content: "question number ##{i+1}")
+		i.questions.create(content: "question number ##{j+1}")
 	end
 end
